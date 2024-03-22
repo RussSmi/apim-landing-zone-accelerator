@@ -3,5 +3,9 @@
     "azureFunctions.projectLanguage": "C#",
     "azureFunctions.projectRuntime": "~3",
     "debug.internalConsoleOptions": "neverOpen",
-    "azureFunctions.preDeployTask": "publish (functions)"
+    "azureFunctions.preDeployTask": "publish (functions)",
+    "azureLogicAppsStandard.deploySubpath": "src/bin/Release/netcoreapp3.1/publish",
+    "azureLogicAppsStandard.projectLanguage": "C#",
+    "azureLogicAppsStandard.projectRuntime": "~3",
+    "azureLogicAppsStandard.preDeployTask": "publish"
 }
